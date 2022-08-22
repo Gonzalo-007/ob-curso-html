@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Formularios</title>
+</head>
+
+<body>
+    <!-- action hace referencia a donde se va a enviar la información del formulario -->
+
+    <form action="resultados.html" method="GET">
+        <div>
+            <!-- en la etiqueta label en el atributo for se pondra lo mismo que
+            en el atributo id de la etiqueta input -->
+            <label for="nombreusuario">Nombre de usuario</label>
+            <!-- en la etiqueta input es necesario poner el atributo name para pasarle los parámetros-->
+            <input name="nombreusuario" id="nombreusuario" />
+        </div>
+        <div>
+            <label for="comentarios">Comentarios</label>
+            <textarea name="comentarios" id="comentarios"></textarea>
+        </div>
+        <div>
+            <label for="password">contraseña</label>
+            <input name="password" id="password" />
+        </div>
+        <button>Enviar</button>
+    </form>
+</body>
+
+</html>
