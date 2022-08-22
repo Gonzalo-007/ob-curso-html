@@ -4,8 +4,26 @@
         <title>Multimedia con HTML</title>
     </head>
     <body>
+        <h3>Imágenes</h3>
         <!-- src es el directorio o la url donde está la imagen que queremos mostrar -->
         <!-- alt es el texto alternativo que se va a mostrar en caso de que la imagen no se pueda mostrar -->
-        <img src="logo-html5.png" alt="Logo HTML5" width="130" height="130">
+        <img src="logo-html5.png" alt="Logo HTML5" width="130" height="130"/>
+
+        <h3>Video</h3>
+        <!-- controls: aparecen los controles
+             autoplay: el video se empieza a reproducir solo al cargarse
+             muted: el video empieza en el sonido desactivado
+             loop: cuando el video acaba, se vuelve a reproducir-->
+        <video width="300" height="300" controls muted loop>
+            <source src="directorio de un archivo .mp4" type="video/mp4">
+        </video>
+
+        <h3>Sonido</h3>
+
+            <audio controls>
+                <source src="" type="audio/mp3">
+
+            </audio>
+
     </body>
 </html>
