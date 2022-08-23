@@ -1,0 +1,16 @@
+
+
+/* Estilos para colores */
+.colores{
+    color:red;
+}
+
+.color-hexadecimal{
+    color:#D6C0D8;
+}
+.color-rgb{
+color: rgb(176, 3, 182);
+}
+.color-rgba{
+    color:rgba(10, 10, 10, 0.2)
+}
