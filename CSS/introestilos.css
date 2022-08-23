@@ -14,3 +14,45 @@ color: rgb(176, 3, 182);
 .color-rgba{
     color:rgba(10, 10, 10, 0.2)
 }
+
+
+
+/* Fondos */
+
+.fondo{
+    /* background-color: cornflowerblue; */
+    background-image: url("https://www.designyourway.net/blog/wp-content/uploads/2018/06/Seamless-Polygon-Background.jpg");
+    background-position-x: right bottom;
+}
+
+.fondo-interno{
+    background-image:url(fondo-morado.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+
+
+/* Tamaños */
+
+.ancho{
+    background-color: burlywood;
+    width: 100px; ;
+}
+
+.alto{
+    background-color: aquamarine;
+    height: 200px;
+}
+
+
+
+.tarjeta{
+    border-style: solid;
+    border-color: rgb(150, 150, 150);
+    border-width: 1px;
+    /* border-top: none; */
+    padding: 10px 20px;
+    margin: 10px 20px;
+
+}
