@@ -1,0 +1,58 @@
+
+
+
+
+
+
+
+div {
+    background-color: white;
+    border:1px solid gray;
+    padding: 15px;
+    margin: 5px;    
+}
+
+
+
+/* relative nos permite posicionarlo en relacion a la posicion que tendria si fuera static */
+/* Posicionamiento relativo- se posiciona en relación
+al posicionamiento original */
+.relative {
+    position: relative;
+    left: 50px;
+}
+
+/* Posicionamiento fijo -  se posiciona en relación a la pantalla
+siempre aparece en primer plano y fijo donde le digamos */
+.fixed {
+    position: fixed;
+    bottom: 0px;
+    left: 0 px;
+    background-color: greenyellow;
+    z-index: 10; /* z-index indica si es tapado por otros elementos o no. En este caso tiene preferencia*/
+}
+
+/* Posicionamiento absoluto- Se posiciona en relación a su contenedor padre */ 
+.absolute {
+    position: absolute;
+    top: 0;
+    right: 0px;
+
+}
+
+
+.relative.container{
+    width: 300px;
+    height: 400px;
+    background-color: blue;
+}
+
+
+/* Posicionamiento pegajoso - al hacer scroll modifica su posicionamiento relative-fixed */
+.sticky {
+    position: sticky;
+    top: 0px;
+    background-color:darksalmon ;
+    color:white;
+    z-index: 2;
+}
