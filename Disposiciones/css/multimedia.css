@@ -7,7 +7,7 @@
 
 
 .imagen-principal {
-    width: 100vw; /* vw signifiva view window */
+    width: 100vw; /* vw signifiva viewport wwidth */
     opacity: 0.3; /* 0: tranparente     1:visible */
 
 }
