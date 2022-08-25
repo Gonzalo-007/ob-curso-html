@@ -1,0 +1,61 @@
+/*  (1, 0, 0) */
+/*  (0, 1, 0) */
+/*  (0, 0, 1) */
+/*  (0, 0, 0)  */
+
+/* La especificidad es la preferencia que tienen los estilos para mostrarse 
+elementos de etiqueta, elementos de clase, elementos de id, etiquetas con dos
+id o dos clases, estilos aplicados directamente en la etiqueta en el html */
+
+/*   !mportant    poniendo !important es la máxima preferencia*/
+
+
+
+
+#h1-id{
+    color: darksalmon;
+}
+
+
+
+.h1-clase {
+    color: yellow;
+}
+
+
+
+
+h1 {
+    color: blue !important; /* Evitar en la medida de lo posible*/
+}
+
+
+p {
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,92 @@
+
+
+
+
+.contenedor {
+    width: 300px;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+
+
+div {
+    background-color: blue;
+}
+
+
+span.frase{
+    font-style: italic;
+}
+
+
+span.frase::before{
+    content: '<<';
+    font-size: xx-small;
+}
+
+span.frase::after {
+    content: '>>';
+    font-size: xx-small;
+}
+
+
+.libro {
+    background-color: bisque;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.libro p::first-letter{  /* Afecta a la primera letra de todos los elementos p dentro de la clase libro */
+    font-size: xx-large;
+}
+
+.libro p::first-line { /* Afecta a la primera linea de todos los elementos p dentro de la clase libro */
+    color: white;
+}
+
+.libro p::selection {/* Afecta a cuando hacemos la selección de texto */
+    background-color: chocolate;
+    color: lime;
+}
+
+.listado ul li::marker {
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
